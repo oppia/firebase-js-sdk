@@ -204,6 +204,10 @@ fireauth.exportlib.exportPrototypeMethods(
           fireauth.args.object('options', true)
         ]
       },
+      getEmulatorConfig: {
+        name: 'getEmulatorConfig',
+        args: []
+      },
       verifyPasswordResetCode: {
         name: 'verifyPasswordResetCode',
         args: [fireauth.args.string('code')]
